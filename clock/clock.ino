@@ -58,7 +58,7 @@ void setup() {
   pinMode(Dig4, OUTPUT);
   digitalWrite(Dig4, HIGH);
 
-  setDS3231time(0,30,7,7,25,10,2015); // seconds, minutes, hours, day, date, month, year
+  setDS3231time(0,16,7,2,14,6,2016); // seconds, minutes, hours, day, date, month, year
 }
 
 void loop() {
