@@ -58,7 +58,9 @@ void setup() {
   pinMode(Dig4, OUTPUT);
   digitalWrite(Dig4, HIGH);
 
-  setDS3231time(0,16,7,2,14,6,2016); // seconds, minutes, hours, day, date, month, year
+  // To set the time first upload the program with this line available.
+  // Then, to make use of any memory in the clock module, upload the program again with this line commented out
+  // setDS3231time(0,6,19,3,6,7,2016); // seconds, minutes, hours, day, date, month, year
 }
 
 void loop() {
